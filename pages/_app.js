@@ -11,21 +11,25 @@ function MyApp({ Component, pageProps }) {
     <>
       <Component {...pageProps} />
       <Script
+        id="bootstrap"
         type="text/javascript"
         src="/js/bootstrap.bundle.js"
         // strategy="afterInteractive"
       ></Script>
       <Script
+        id="tinyslider.js"
         type="text/javascript"
         src="/js/tiny-slider.js"
         // strategy="afterInteractive"
       ></Script>
       <Script
+        id="sticky.js"
         type="text/javascript"
         src="/js/sticky.min.js"
         // strategy="afterInteractive"
       ></Script>
       <Script
+        id="plyr.js"
         type="text/javascript"
         src="/js/plyr.js"
         // strategy="afterInteractive"

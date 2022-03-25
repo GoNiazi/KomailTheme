@@ -79,7 +79,7 @@ export default function Home() {
                   />
                   <label
                     className="btn btn-xs btn-outline-primary mb-0"
-                    for="font-sm"
+                    htmlFor="font-sm"
                   >
                     A-
                   </label>
@@ -92,7 +92,7 @@ export default function Home() {
                   />
                   <label
                     className="btn btn-xs btn-outline-primary mb-0"
-                    for="font-default"
+                    htmlFor="font-default"
                   >
                     A
                   </label>
@@ -105,7 +105,7 @@ export default function Home() {
                   />
                   <label
                     className="btn btn-xs btn-outline-primary mb-0"
-                    for="font-lg"
+                    htmlFor="font-lg"
                   >
                     A+
                   </label>
@@ -1256,7 +1256,7 @@ export default function Home() {
                           {/* <!-- Card overlay Top --> */}
                           <div className="w-100 mb-auto d-flex justify-content-end">
                             <div className="text-end ms-auto">
-                              {/* <!-- Card format icon --> */}
+                              {/* <!-- Card htmlFormat icon --> */}
                               <div
                                 className="icon-md bg-white-soft bg-blur text-white rounded-circle"
                                 title="This post has video"
@@ -1891,7 +1891,7 @@ export default function Home() {
                         {/* <!-- Card overlay Top --> */}
                         <div className="w-100 mb-auto d-flex justify-content-end">
                           <div className="text-end ms-auto">
-                            {/* <!-- Card format icon --> */}
+                            {/* <!-- Card htmlFormat icon --> */}
                           </div>
                         </div>
                         {/* <!-- Card overlay bottom --> */}
@@ -2083,7 +2083,7 @@ export default function Home() {
                         {/* <!-- Card overlay Top --> */}
                         <div className="w-100 mb-auto d-flex justify-content-end">
                           <div className="text-end ms-auto">
-                            {/* <!-- Card format icon --> */}
+                            {/* <!-- Card htmlFormat icon --> */}
                             <div
                               className="icon-md bg-white-soft bg-blur text-white rounded-circle"
                               title="This post has images"
@@ -2169,7 +2169,7 @@ export default function Home() {
                           href="post-single-3.html"
                           className="btn-link text-reset fw-bold"
                         >
-                          Best Pinterest Boards for learning about business
+                          Best Pinterest Boards htmlFor learning about business
                         </a>
                       </h5>
                       {/* <!-- Card info --> */}
@@ -2215,13 +2215,13 @@ export default function Home() {
             </div>
             <div className="col-md-5">
               <p className="text-muted">
-                The next-generation blog, news, and magazine theme for you to
+                The next-generation blog, news, and magazine theme For you to
                 start sharing your stories today! This Bootstrap 5 based theme
-                is ideal for all types of sites that deliver the news.
+                is ideal For all types of sites that deliver the news.
               </p>
             </div>
             <div className="col-md-4">
-              {/* <!-- Form --> */}
+              {/* <!-- htmlForm --> */}
               <form className="row row-cols-lg-auto g-2 align-items-center justify-content-end">
                 <div className="col-12">
                   <input
@@ -2644,7 +2644,7 @@ export default function Home() {
 //                   {/* <!-- Card overlay Top --> */}
 //                   <div className="w-100 mb-auto d-flex justify-content-end">
 //                     <div className="text-end ms-auto">
-//                       {/* <!-- Card format icon --> */}
+//                       {/* <!-- Card htmlFormat icon --> */}
 //                       <div
 //                         className="icon-md bg-white-soft bg-blur text-white fw-bold rounded-circle"
 //                         title="8.5 rating"
@@ -2827,7 +2827,7 @@ export default function Home() {
 //                   {/* <!-- Card overlay Top --> */}
 //                   <div className="w-100 mb-auto d-flex justify-content-end">
 //                     <div className="text-end ms-auto">
-//                       {/* <!-- Card format icon --> */}
+//                       {/* <!-- Card htmlFormat icon --> */}
 //                       <div
 //                         className="icon-md bg-white-soft bg-blur text-white rounded-circle"
 //                         title="This post has images"
@@ -2908,7 +2908,7 @@ export default function Home() {
 //                     href="post-single-3.html"
 //                     className="btn-link text-reset fw-bold"
 //                   >
-//                     Best Pinterest Boards for learning about business
+//                     Best Pinterest Boards htmlFor learning about business
 //                   </a>
 //                 </h5>
 //                 {/* <!-- Card info --> */}
