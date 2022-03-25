@@ -3,15 +3,6 @@ import Image from "next/image";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-// import TrendingStart from "../components/TrendingStart";
-// import Hero from "../components/Hero";
-// import ContentSection from "../components/ContentSection";
-// import SponsoredNews from "../components/SponsoredNews";
-
-// import styles from "../styles/Home.module.css";
-// import Slider from "../components/Slider";
-// import Posts from "../components/Posts";
-
 export default function Home() {
   const responsive = {
     superLargeDesktop: {
@@ -447,18 +438,13 @@ export default function Home() {
                       <a
                         className="dropdown-item"
                         href="https://support.webestica.com/"
-                        target="_blank"
                       >
                         <i className="text-warning fa-fw bi bi-life-preserver me-2"></i>
                         Support
                       </a>
                     </li>
                     <li>
-                      <a
-                        className="dropdown-item"
-                        href="docs/index.html"
-                        target="_blank"
-                      >
+                      <a className="dropdown-item" href="docs/index.html">
                         <i className="text-danger fa-fw bi bi-card-text me-2"></i>
                         Documentation
                       </a>
@@ -468,7 +454,6 @@ export default function Home() {
                       <a
                         className="dropdown-item"
                         href="https://blogzine.webestica.com/rtl"
-                        target="_blank"
                       >
                         <i className="text-info fa-fw bi bi-toggle-off me-2"></i>
                         RTL demo
@@ -478,7 +463,6 @@ export default function Home() {
                       <a
                         className="dropdown-item"
                         href="https://themes.getbootstrap.com/store/webestica/"
-                        target="_blank"
                       >
                         <i className="text-success fa-fw bi bi-cloud-download-fill me-2"></i>
                         Buy blogzine!
@@ -1175,10 +1159,8 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="row gy-4">
-                  {/* <!-- Card item START --> */}
                   <div className="col-sm-6">
                     <div className="card">
-                      {/* <!-- Card img --> */}
                       <div className="position-relative">
                         <img
                           className="card-img"
@@ -1186,9 +1168,7 @@ export default function Home() {
                           alt="Card image"
                         />
                         <div className="card-img-overlay d-flex align-items-start flex-column p-3">
-                          {/* <!-- Card overlay bottom --> */}
                           <div className="w-100 mt-auto">
-                            {/* <!-- Card category --> */}
                             <a href="#" className="badge bg-warning mb-2">
                               <i className="fas fa-circle me-2 small fw-bold"></i>
                               Technology
@@ -1789,7 +1769,7 @@ export default function Home() {
                           </div>
                         </div>
                       </div>
-                      {/* <!-- Recent post item --> */}
+
                       <div className="card mb-3">
                         <div className="row g-3">
                           <div className="col-4">
@@ -2534,7 +2514,6 @@ export default function Home() {
                   <a
                     href="https://www.webestica.com/"
                     className="text-reset btn-link"
-                    target="_blank"
                   >
                     Webestica
                   </a>
@@ -2600,348 +2579,3 @@ export default function Home() {
     </>
   );
 }
-{
-  /* <section className="pt-4">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-12">
-                {/* <!-- Title --> */
-}
-//         <div className="mb-4 d-md-flex justify-content-between align-items-center">
-//           <h2 className="m-0">
-//             <i className="bi bi-megaphone"></i> Sponsored news
-//           </h2>
-//         </div>
-
-//           <Carousel
-//             swipeable={false}
-//             draggable={false}
-//             showDots={true}
-//             responsive={responsive}
-//             ssr={true} // means to render carousel on server-side.
-//             infinite={true}
-//             // autoPlay={this.props.deviceType !== "mobile" ? true : false}
-//             autoPlaySpeed={1000}
-//             keyBoardControl={true}
-//             customTransition="all .5"
-//             transitionDuration={1000}
-//             containerclassName="carousel-container"
-//             removeArrowOnDeviceType={["tablet", "mobile"]}
-//             // deviceType={this.props.deviceType}
-//             dotListclassName="custom-dot-list-style"
-//             itemclassName="carousel-item-padding-40-px"
-//           >
-//             {/* <!-- Card item START --> */}
-//             <div className="card">
-//               {/* <!-- Card img --> */}
-//               <div className="position-relative">
-//                 <img
-//                   className="card-img"
-//                   src="/images/7.jpg"
-//                   alt="Card image"
-//                 />
-//                 <div className="card-img-overlay d-flex align-items-start flex-column p-3">
-//                   {/* <!-- Card overlay Top --> */}
-//                   <div className="w-100 mb-auto d-flex justify-content-end">
-//                     <div className="text-end ms-auto">
-//                       {/* <!-- Card htmlFormat icon --> */}
-//                       <div
-//                         className="icon-md bg-white-soft bg-blur text-white fw-bold rounded-circle"
-//                         title="8.5 rating"
-//                       >
-//                         8.5
-//                       </div>
-//                     </div>
-//                   </div>
-//                   {/* <!-- Card overlay bottom --> */}
-//                   <div className="w-100 mt-auto">
-//                     <a href="#" className="badge bg-info mb-2">
-//                       <i className="fas fa-circle me-2 small fw-bold"></i>
-//                       Marketing
-//                     </a>
-//                   </div>
-//                 </div>
-//               </div>
-//               <div className="card-body px-0 pt-3">
-//                 <h5 className="card-title">
-//                   <a
-//                     href="post-single-3.html"
-//                     className="btn-link text-reset fw-bold"
-//                   >
-//                     7 common mistakes everyone makes while traveling
-//                   </a>
-//                 </h5>
-//                 {/* <!-- Card info --> */}
-//                 <ul className="nav nav-divider align-items-center d-none d-sm-inline-block">
-//                   <li className="nav-item">
-//                     <div className="nav-link">
-//                       <div className="d-flex align-items-center position-relative">
-//                         <div className="avatar avatar-xs">
-//                           <img
-//                             className="avatar-img rounded-circle"
-//                             src="/images/logo.png"
-//                             alt="avatar"
-//                           />
-//                         </div>
-//                         <span className="ms-3">
-//                           by{" "}
-//                           <a
-//                             href="#"
-//                             className="stretched-link text-reset btn-link"
-//                           >
-//                             Lori
-//                           </a>
-//                         </span>
-//                       </div>
-//                     </div>
-//                   </li>
-//                   <li className="nav-item">Mar 07, 2022</li>
-//                 </ul>
-//               </div>
-//             </div>
-//             {/* <!-- Card item END -->
-// 		<!-- Card item START --> */}
-//             <div className="card">
-//               {/* <!-- Card img --> */}
-//               <div className="position-relative">
-//                 <img
-//                   className="card-img"
-//                   src="/images/5.jpg"
-//                   alt="Card image"
-//                 />
-//                 <div className="card-img-overlay d-flex align-items-start flex-column p-3">
-//                   {/* <!-- Card overlay bottom --> */}
-//                   <div className="w-100 mt-auto">
-//                     <a href="#" className="badge bg-danger mb-2">
-//                       <i className="fas fa-circle me-2 small fw-bold"></i>
-//                       Sports
-//                     </a>
-//                   </div>
-//                 </div>
-//               </div>
-//               <div className="card-body px-0 pt-3">
-//                 <h5 className="card-title">
-//                   <a
-//                     href="post-single-3.html"
-//                     className="btn-link text-reset fw-bold"
-//                   >
-//                     Skills that you can learn from business
-//                   </a>
-//                 </h5>
-//                 {/* <!-- Card info --> */}
-//                 <ul className="nav nav-divider align-items-center d-none d-sm-inline-block">
-//                   <li className="nav-item">
-//                     <div className="nav-link">
-//                       <div className="d-flex align-items-center position-relative">
-//                         <div className="avatar avatar-xs">
-//                           <div className="avatar-img rounded-circle bg-warning">
-//                             <span className="text-dark position-absolute top-50 start-50 translate-middle fw-bold small">
-//                               MK
-//                             </span>
-//                           </div>
-//                         </div>
-//                         <span className="ms-3">
-//                           by{" "}
-//                           <a
-//                             href="#"
-//                             className="stretched-link text-reset btn-link"
-//                           >
-//                             Joan
-//                           </a>
-//                         </span>
-//                       </div>
-//                     </div>
-//                   </li>
-//                   <li className="nav-item">Aug 15, 2022</li>
-//                 </ul>
-//               </div>
-//             </div>
-//             {/* <!-- Card item END -->
-// 		<!-- Card item START --> */}
-//             <div className="card">
-//               {/* <!-- Card img --> */}
-//               <div className="position-relative">
-//                 <img
-//                   className="card-img"
-//                   src="/images/1.jpg"
-//                   alt="Card image"
-//                 />
-//                 <div className="card-img-overlay d-flex align-items-start flex-column p-3">
-//                   {/* <!-- Card overlay bottom --> */}
-//                   <div className="w-100 mt-auto">
-//                     <a href="#" className="badge bg-success mb-2">
-//                       <i className="fas fa-circle me-2 small fw-bold"></i>
-//                       Marketing
-//                     </a>
-//                   </div>
-//                 </div>
-//               </div>
-//               <div className="card-body px-0 pt-3">
-//                 <h5 className="card-title">
-//                   <a
-//                     href="post-single-3.html"
-//                     className="btn-link text-reset fw-bold"
-//                   >
-//                     10 tell-tale signs you need to get a new business
-//                   </a>
-//                 </h5>
-//                 {/* <!-- Card info --> */}
-//                 <ul className="nav nav-divider align-items-center d-none d-sm-inline-block">
-//                   <li className="nav-item">
-//                     <div className="nav-link">
-//                       <div className="d-flex align-items-center position-relative">
-//                         <div className="avatar avatar-xs">
-//                           <img
-//                             className="avatar-img rounded-circle"
-//                             src="/images/logo.png"
-//                             alt="avatar"
-//                           />
-//                         </div>
-//                         <span className="ms-3">
-//                           by{" "}
-//                           <a
-//                             href="#"
-//                             className="stretched-link text-reset btn-link"
-//                           >
-//                             Bryan
-//                           </a>
-//                         </span>
-//                       </div>
-//                     </div>
-//                   </li>
-//                   <li className="nav-item">Jun 01, 2022</li>
-//                 </ul>
-//               </div>
-//             </div>
-//             {/* <!-- Card item END -->
-// 		<!-- Card item START --> */}
-//             <div className="card">
-//               {/* <!-- Card img --> */}
-//               <div className="position-relative">
-//                 <img
-//                   className="card-img"
-//                   src="/images/3.jpg"
-//                   alt="Card image"
-//                 />
-//                 <div className="card-img-overlay d-flex align-items-start flex-column p-3">
-//                   {/* <!-- Card overlay Top --> */}
-//                   <div className="w-100 mb-auto d-flex justify-content-end">
-//                     <div className="text-end ms-auto">
-//                       {/* <!-- Card htmlFormat icon --> */}
-//                       <div
-//                         className="icon-md bg-white-soft bg-blur text-white rounded-circle"
-//                         title="This post has images"
-//                       >
-//                         <i className="fas fa-image"></i>
-//                       </div>
-//                     </div>
-//                   </div>
-//                   {/* <!-- Card overlay bottom --> */}
-//                   <div className="w-100 mt-auto">
-//                     <a href="#" className="badge bg-primary mb-2">
-//                       <i className="fas fa-circle me-2 small fw-bold"></i>
-//                       Photography
-//                     </a>
-//                   </div>
-//                 </div>
-//               </div>
-//               <div className="card-body px-0 pt-3">
-//                 <h5 className="card-title">
-//                   <a
-//                     href="post-single-3.html"
-//                     className="btn-link text-reset fw-bold"
-//                   >
-//                     This is why this year will be the year of startups
-//                   </a>
-//                 </h5>
-//                 {/* <!-- Card info --> */}
-//                 <ul className="nav nav-divider align-items-center d-none d-sm-inline-block">
-//                   <li className="nav-item">
-//                     <div className="nav-link">
-//                       <div className="d-flex align-items-center position-relative">
-//                         <div className="avatar avatar-xs">
-//                           <img
-//                             className="avatar-img rounded-circle"
-//                             src="/images/logo.png"
-//                             alt="avatar"
-//                           />
-//                         </div>
-//                         <span className="ms-3">
-//                           by{" "}
-//                           <a
-//                             href="#"
-//                             className="stretched-link text-reset btn-link"
-//                           >
-//                             Samuel
-//                           </a>
-//                         </span>
-//                       </div>
-//                     </div>
-//                   </li>
-//                   <li className="nav-item">Dec 07, 2022</li>
-//                 </ul>
-//               </div>
-//             </div>
-//             {/* <!-- Card item END -->
-// 		<!-- Card item START --> */}
-//             <div className="card">
-//               {/* <!-- Card img --> */}
-//               <div className="position-relative">
-//                 <img
-//                   className="card-img"
-//                   src="/images/news1.jpg"
-//                   alt="Card image"
-//                 />
-//                 <div className="card-img-overlay d-flex align-items-start flex-column p-3">
-//                   {/* <!-- Card overlay bottom --> */}
-//                   <div className="w-100 mt-auto">
-//                     <a href="#" className="badge bg-warning mb-2">
-//                       <i className="fas fa-circle me-2 small fw-bold"></i>
-//                       Technology
-//                     </a>
-//                   </div>
-//                 </div>
-//               </div>
-//               <div className="card-body px-0 pt-3">
-//                 <h5 className="card-title">
-//                   <a
-//                     href="post-single-3.html"
-//                     className="btn-link text-reset fw-bold"
-//                   >
-//                     Best Pinterest Boards htmlFor learning about business
-//                   </a>
-//                 </h5>
-//                 {/* <!-- Card info --> */}
-//                 <ul className="nav nav-divider align-items-center d-none d-sm-inline-block">
-//                   <li className="nav-item">
-//                     <div className="nav-link">
-//                       <div className="d-flex align-items-center position-relative">
-//                         <div className="avatar avatar-xs">
-//                           <img
-//                             className="avatar-img rounded-circle"
-//                             src="/images/logo.png"
-//                             alt="avatar"
-//                           />
-//                         </div>
-//                         <span className="ms-3">
-//                           by{" "}
-//                           <a
-//                             href="#"
-//                             className="stretched-link text-reset btn-link"
-//                           >
-//                             Dennis
-//                           </a>
-//                         </span>
-//                       </div>
-//                     </div>
-//                   </li>
-//                   <li className="nav-item">Sep 07, 2022</li>
-//                 </ul>
-//               </div>
-//             </div>
-//           </Carousel>
-//         </div>
-//       </div>
-//     </div>
-//   </div>
-// </section> */}
