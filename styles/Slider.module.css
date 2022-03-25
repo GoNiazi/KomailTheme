@@ -1,0 +1,12 @@
+.container {
+  padding: 30px;
+}
+.carousel {
+  height: 300px;
+}
+
+.popularpost {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
