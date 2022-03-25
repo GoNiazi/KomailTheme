@@ -1,21 +1,20 @@
-import React from "react";
-import Head from "next/head";
+// import React from "react";
+// import Head from "next/head";
 
-import Nav from "./Nav";
-const Layout = ({ children }) => {
-  return (
-    <>
-      <Head>
-       
-      </Head>
+// import Nav from "./Nav";
+// const Layout = ({ children }) => {
+//   return (
+//     <>
+//       <Head>
 
-      <Nav />
+//       </Head>
 
-      <div>{children}</div>
+//       <Nav />
 
-      
-    </>
-  );
-};
+//       <div>{children}</div>
 
-export default Layout;
+//     </>
+//   );
+// };
+
+// export default Layout;

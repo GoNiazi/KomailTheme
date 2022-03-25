@@ -1151,7 +1151,7 @@ export default function Home() {
                 {/* <!-- Title --> */}
                 <div className="mb-4">
                   <h2 className="m-0">
-                    <i className="bi bi-hourglass-top me-2"></i>Today's top
+                    <i className="bi bi-hourglass-top me-2"></i>Todays top
                     highlights
                   </h2>
                   <p>
@@ -1759,10 +1759,10 @@ export default function Home() {
                           <div className="col-8">
                             <h6>
                               <a
-                                href="post-single-2.html"
+                                href="#"
                                 className="btn-link stretched-link text-reset fw-bold"
                               >
-                                5 reasons why you shouldn't startup
+                                5 reasons why you shouldnt startup
                               </a>
                             </h6>
                             <div className="small mt-1">Apr 04, 2022</div>

@@ -1,4 +1,4 @@
-import Layout from "../components/Layout";
+// import Layout from "../components/Layout";
 import "../styles/all.min.css";
 import "../styles/bootstrap-icons.css";
 import "../styles/tiny-slider.css";
